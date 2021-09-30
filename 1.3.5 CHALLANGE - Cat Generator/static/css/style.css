@@ -1,0 +1,30 @@
+/* ! Challange 2 : Cat Generator ! */
+
+/* TODO: See the line no. 1 In this container the elements are same so we just combime both container */
+
+.container-2
+{
+    border: 1px solid red;
+    width: 75%;
+    text-align: center;
+    margin: 0 auto; /** It just centralized things **/
+} 
+
+/* TODO: See the line no. 9 In this container the elements are same so we just combime both container */
+
+.flex-box-container-2  
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /** This will hwlp to centralize the next line element in challange **/
+    border: 1px solid blue; 
+}
+
+
+.flex-box-container-2 img
+{
+    /** border: 1px solid rgb(0, 128, 0);  **/
+    /** padding: 10px; Padding is addding white space between border and image **/  
+    margin: 10px;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.7);
+}

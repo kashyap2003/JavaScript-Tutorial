@@ -1,0 +1,28 @@
+/* ! Challange 1 : Your age in Days ! */
+
+.container-1
+{
+    border: 1px solid magenta;
+    width: 75%;
+    text-align: center;
+    margin: 0 auto; /** It just centralized things  **/
+}
+
+.flex-box-container-1
+{
+    display: flex; /** flex item will grow or shrink to fit the space available in its flex container **/ 
+    border: 1px solid black; /** Create an border outside contain **/
+    padding: 10px;  /** Making space between contain and border **/
+    justify-content: space-around; /** It will create the space between buttons **/ 
+    flex-wrap: wrap; /** Controls whether the flex container is single-line or multi-line, and the direction
+                      **of the cross-axis, which determines the direction new lines are stacked in.**/
+    flex-direction: row; /** The row is by default **/
+} 
+
+.flex-box-container-1 div /** This is saying if there is div inside flex-box-container-1 then **/ 
+{
+    padding: 10px;
+    border: 1px solid black ;
+    display: flex;
+    align-items: center;
+}

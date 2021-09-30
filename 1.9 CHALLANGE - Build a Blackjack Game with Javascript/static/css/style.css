@@ -1,0 +1,185 @@
+/* ! Challange 1 : Your age in Days ! */
+
+.container-1 , .container-2, .container-3, .container-4
+{
+    border: 1px solid rgb(0, 0, 0);
+    width: 75%;
+    text-align: center;
+    margin: 0 auto; /** It just centralized things  **/
+}
+
+.flex-box-container-1, .flex-box-container-2, .flex-box-rps, .flex-box-pick-color
+{
+    display: flex; /** flex item will grow or shrink to fit the space available in its flex container **/ 
+    border: 1px solid black; /** Create an border outside contain **/
+    padding: 10px;  /** Making space between contain and border **/
+    justify-content: space-around; /** It will create the space between buttons **/ 
+    flex-wrap: wrap; /** Controls whether the flex container is single-line or multi-line, and the direction
+                      **of the cross-axis, which determines the direction new lines are stacked in.**/
+    flex-direction: row; /** The row is by default **/
+} 
+
+.flex-box-container-1 div /** This is saying if there is div inside flex-box-container-1 then **/ 
+{
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0) ;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+/* ! Challange 2 : Cat Generator ! */
+
+/* TODO: See the line no. 1 In this container the elements are same so we just combime both container */
+
+/** .container-2
+{
+    ** border: 1px solid red;
+    ** width: 75%;
+    ** text-align: center;
+    ** margin: 0 auto; /** It just centralized things  
+} 
+* * */
+
+/* TODO: See the line no. 9 In this container the elements are same so we just combime both container */
+
+/** .flex-box-container-2  
+{
+    ** display: flex;
+    ** flex-wrap: wrap;
+    ** justify-content: space-around; /** This will hwlp to centralize the next line element in challange
+    ** border: 1px solid blue; 
+}
+* * */ 
+
+.flex-box-container-2 img
+{
+    /** border: 1px solid rgb(0, 128, 0);  **/
+    /** padding: 10px; Padding is addding white space between border and image **/  
+    margin: 10px;
+    box-shadow: 0px 10px 50px hsla(0, 0%, 0%, 0.76);
+}
+
+
+
+
+/* ! Challange 3 : Rock, Paper and Scissors ! */
+
+/* TODO: See the line no. 1 In this container the elements are same so we just combime both container */
+
+/** .container-3
+{
+    ** border: 1px solid red;
+    ** width: 75%;
+    ** text-align: center;
+    ** margin: 0 auto; /** It just centralized things  
+} 
+* * */
+
+/* TODO: See the line no. 9 In this container the elements are same so we just combime both container */
+
+/** .flex-box-rps
+{
+    ** display: flex;
+    ** flex-wrap: wrap;
+    ** justify-content: space-around; /** This will hwlp to centralize the next line element in challange
+    ** border: 1px solid blue; 
+}
+* * */ 
+
+.flex-box-rps img:hover
+{
+    box-shadow: 0px 10px 50px rgb(0, 0, 255);
+}
+
+/* ! Challange 4 : Change the Color of All Buttons ! */
+
+/* TODO: See the line no. 1 In this container the elements are same so we just combime both container */
+
+/** .container-4
+{
+    ** border: 1px solid red;
+    ** width: 75%;
+    ** text-align: center;
+    ** margin: 0 auto; /** It just centralized things  
+} 
+* * */
+
+/* TODO: See the line no. 9 In this container the elements are same so we just combime both container */
+
+/** .flex-box-pick-color
+{
+    ** display: flex;
+    ** flex-wrap: wrap;
+    ** justify-content: space-around; /** This will hwlp to centralize the next line element in challange
+    ** border: 1px solid blue; 
+}
+* * */ 
+
+
+/* ! Challange 5 : Blckjack! */
+
+.container-5
+{
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.flex-blackjack-row-1, .flex-blackjack-row-2, .flex-blackjack-row-3
+{
+    display: flex; /** flex item will grow or shrink to fit the space available in its flex container **/ 
+    border: 1px solid black; /** Create an border outside contain **/
+    padding: 10px;  /** Making space between contain and border **/
+    justify-content: space-around; /** It will create the space between buttons **/ 
+    flex-wrap: wrap; /** Controls whether the flex container is single-line or multi-line, and the direction
+                      **of the cross-axis, which determines the direction new lines are stacked in.**/
+    flex-direction: row; /** The row is by default **/
+} 
+
+.flex-blackjack-row-1
+{
+    background: url("https://media.istockphoto.com/vectors/black-jack-table-background-in-green-color-green-cloth-gambling-field-vector-id1308301349?b=1&k=6&m=1308301349&s=170667a&w=0&h=1Yu10mqpAxv0Qb8yiiCp2I18RbnO3MIQABeFUu_qyeM=") center;
+    color: white;
+}
+
+.flex-blackjack-row-1 div
+{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;    
+    height: 350px;
+    flex: 1;
+}
+.flex-blackjack-row-1 img
+{
+    width: 25%;
+    padding: 10px;
+}
+
+
+.flex-blackjack-row-2
+{
+    background: url("https://media.istockphoto.com/vectors/black-jack-table-background-in-green-color-green-cloth-gambling-field-vector-id1308301349?b=1&k=6&m=1308301349&s=170667a&w=0&h=1Yu10mqpAxv0Qb8yiiCp2I18RbnO3MIQABeFUu_qyeM=") bottom;
+    color: white;
+}
+
+.flex-blackjack-row-2 button
+{
+    border: 1px solid black;
+}
+
+.flex-blackjack-row-2 div
+{
+    border: 1px solid black;
+    padding: 4px;
+}
+
+table, th, td
+{
+    border: 1px solid black;
+    padding: 5px;
+}

@@ -1,0 +1,24 @@
+
+/* ! Challange 4 : Change the Color of All Buttons ! */
+
+/* TODO: See the line no. 1 In this container the elements are same so we just combime both container */
+
+.container-4
+{
+    border: 1px solid red;
+    width: 75%;
+    text-align: center;
+    margin: 0 auto; /** It just centralized things **/ 
+} 
+
+
+/* TODO: See the line no. 9 In this container the elements are same so we just combime both container */
+
+.flex-box-pick-color
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /** This will hwlp to centralize the next line element in challange **/
+    border: 1px solid blue; 
+}
+ 
